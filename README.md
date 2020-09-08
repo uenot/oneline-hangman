@@ -23,5 +23,5 @@ Other necessary techniques include list comprehensions, ternary operators, and `
 
 Techniques that were not used, but would make the program easier to write:
 - Semicolons
-- Lists with the *sole* goal of executing multiple statements (ex: `[prepare_for_input(), input()][1]`)
+- Lists of function calls that essentially act as multiple lines (like semicolons)
 - `exec()`
