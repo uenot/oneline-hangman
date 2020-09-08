@@ -6,7 +6,7 @@ Hangman, written in one line of code.
 2. Run it in Python: `python3 hangman.py`
 3. When prompted, guess a letter by entering it in the command prompt.
 
-Note that currently, the program only works on Mac and Linux. This is because the word bank for the game is the `usr/share/dict/words` file that is present on Unix systems.
+Note that for Windows, the `requests` library is a dependency, but for Mac and Linux there are no external dependencies. This is because the word bank for the game is the `usr/share/dict/words` file that is present on Unix systems, and for Windows the program uses `requests` to get an online version of the file ([present here](https://users.cs.duke.edu/~ola/ap/linuxwords)).
 
 ## About
 This program makes use of lambda functions in Python to condense a full Hangman game to one line.
