@@ -15,7 +15,7 @@ Instead of while loops, functions such as `get_guess` were called recursively. N
 ```
 (lambda f: lambda *args: f(f, *args))
 ```
-This acts as a pseudo-decorator for lambdas, allowing them to access themselves (the `self` argument in the code) as their first parameter. This allows the functions to pass themselves around and call themselves recursively. [See this Wikipedia page on Y-combinators](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator).
+This acts as a pseudo-decorator for lambdas, allowing them to access themselves (the `self` argument in the code) as their first parameter. This lets the functions pass themselves around and call themselves recursively. [See this Wikipedia page on Y-combinators](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator).
 
 Program state is initiated in the arguments for the largest lambda, and is then passed through all of the functions.
 
