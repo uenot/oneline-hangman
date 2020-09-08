@@ -11,7 +11,7 @@ Note that currently, the program only works on Mac and Linux. This is because th
 ## About
 This program makes use of lambda functions in Python to condense a full Hangman game to one line.
 
-Instead of while loops, functions such as `get_guess` were called recursively. Normally this is difficult with unnamed lambdas, but this lambda allows us to do so:
+Instead of while loops, functions such as `get_guess` were called recursively. Normally this is difficult with unnamed lambdas, but this snippet allows us to do so:
 ```
 (lambda f: lambda *args: f(f, *args))
 ```
